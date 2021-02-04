@@ -1,0 +1,28 @@
+// This test case requests for a beverage that does not exist
+//                             refills an ingredient that machine does not accept
+//                             refills an ingredient that is running low 
+//                              refills an ingredient that is already full
+//                              refills with a negative value
+
+outlets 2
+
+ingredients hot_water 500
+ingredients hot_milk 500
+ingredients ginger_syrup 100
+ingredients sugar_syrup 100
+ingredients tea_leaves_syrup 100
+
+beverages hot_tea hot_water 200
+beverages hot_tea hot_milk 100
+beverages hot_tea ginger_syrup 10
+beverages hot_tea sugar_syrup 10
+beverages hot_tea tea_leaves_syrup 30
+
+instruction order hot_tea
+instruction order cinnamon_coffee
+instruction refill cinnamon_syrup 400
+instruction refill hot_water 100
+instruction refill ginger_syrup 100
+instruction refill ginger_syrup 1000
+instruction delay 3
+instruction refill sugar_syrup -10

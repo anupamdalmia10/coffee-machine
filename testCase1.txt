@@ -1,0 +1,11 @@
+// In this test case there are no ingredient slots
+
+outlets 1
+
+beverages hot_tea hot_water 200
+beverages hot_tea hot_milk 100
+beverages hot_tea ginger_syrup 10
+beverages hot_tea sugar_syrup 10
+beverages hot_tea tea_leaves_syrup 30
+
+instruction order hot_tea

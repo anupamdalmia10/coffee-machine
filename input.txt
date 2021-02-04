@@ -1,0 +1,40 @@
+// This test case was provided in the link in problem description
+// This test case covers the case of insufficient and unavailable ingredients
+// If run several times, there can be different outputs for different runs as mentioned in the sample output
+
+outlets 3
+
+ingredients hot_water 500
+ingredients hot_milk 500
+ingredients ginger_syrup 100
+ingredients sugar_syrup 100
+ingredients tea_leaves_syrup 100
+
+
+
+beverages hot_tea hot_water 200
+beverages hot_tea hot_milk 100
+beverages hot_tea ginger_syrup 10
+beverages hot_tea sugar_syrup 10
+beverages hot_tea tea_leaves_syrup 30
+
+beverages hot_coffee hot_water 100
+beverages hot_coffee hot_milk 400
+beverages hot_coffee ginger_syrup 30
+beverages hot_coffee sugar_syrup 50
+beverages hot_coffee tea_leaves_syrup 30
+
+beverages black_tea hot_water 300
+beverages black_tea ginger_syrup 30
+beverages black_tea sugar_syrup 50
+beverages black_tea tea_leaves_syrup 30
+
+beverages green_tea hot_water 100
+beverages green_tea ginger_syrup 30
+beverages green_tea sugar_syrup 50
+beverages green_tea green_mixture 30
+
+instruction order hot_coffee
+instruction order hot_tea
+instruction order green_tea
+instruction order black_tea
