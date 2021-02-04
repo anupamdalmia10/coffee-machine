@@ -4,7 +4,7 @@
 
 ## Run
 
-Pass the test case file as argument
+Pass the test case file as argument (input.txt is the test case file given in pdf)
 
 ```bash
 go run coffee.go input.txt
