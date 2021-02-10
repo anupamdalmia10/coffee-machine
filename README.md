@@ -35,18 +35,18 @@ When main() is run with coffeeV2,
 
 <pre><code>
 2021/02/11 03:06:47 Outlet 2 : Requesting hot_tea
-<b>2021/02/11 03:06:47 V2 Outlet 2 waited for 229ns to acquire lock</b>
+<b><font size="4">2021/02/11 03:06:47 V2 Outlet 2 waited for 229ns to acquire lock</font></b>
 2021/02/11 03:06:47 Outlet 2 : After reserving - map[ginger_syrup:90 hot_milk:400 hot_water:300 sugar_syrup:90 tea_leaves_syrup:70]
 2021/02/11 03:06:47 Outlet 1 : Requesting hot_coffee
-<b>2021/02/11 03:06:47 V2 Outlet 1 waited for 183ns to acquire lock</b>
+<b><font size="4">2021/02/11 03:06:47 V2 Outlet 1 waited for 183ns to acquire lock</font></b>
 2021/02/11 03:06:47 Outlet 1 : After reserving - map[ginger_syrup:60 hot_milk:0 hot_water:200 sugar_syrup:40 tea_leaves_syrup:40]
 2021/02/11 03:06:47 Outlet 3 : Requesting green_tea
-<b>2021/02/11 03:06:47 V2 Outlet 3 waited for 70ns to acquire lock</b>
+<b><font size="4">2021/02/11 03:06:47 V2 Outlet 3 waited for 70ns to acquire lock</font></b>
 2021/02/11 03:06:47 Outlet 3 : green_tea cannot be prepared because: 
                 Outlet: 3 sugar_syrup is not sufficient
                 Outlet: 3 green_mixture is not available
 2021/02/11 03:06:47 Outlet 3 : Requesting black_tea
-<b>2021/02/11 03:06:47 V2 Outlet 3 waited for 78ns to acquire lock</b>
+<b><font size="4">2021/02/11 03:06:47 V2 Outlet 3 waited for 78ns to acquire lock</font></b>
 2021/02/11 03:06:47 Outlet 3 : black_tea cannot be prepared because: 
                 Outlet: 3 hot_water is not sufficient
                 Outlet: 3 sugar_syrup is not sufficient
